@@ -1,0 +1,2487 @@
+[ 2017-04-17T14:57:51+08:00 ] ::1 /MyProject/ALK/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001992s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.048392s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.041763s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.008175s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000825s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2017-04-17T14:58:04+08:00 ] ::1 /MyProject/ALK/index.php/Home/Company/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `alk_tb_company` [ RunTime:0.007829s ]
+SQL: SELECT * FROM `alk_tb_company`  [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-04-17T14:59:27+08:00 ] ::1 /MyProject/ALK/index.php/Home/Company/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+SQL: SHOW COLUMNS FROM `alk_tb_company` [ RunTime:0.011010s ]
+SQL: SELECT * FROM `alk_tb_company`  [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-04-17T14:59:31+08:00 ] ::1 /MyProject/ALK/index.php/Home/Company/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `alk_tb_company` [ RunTime:0.010532s ]
+SQL: SELECT * FROM `alk_tb_company`  [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-04-17T15:01:47+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.010910s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000264s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000910s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000638s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002251s ]
+
+[ 2017-04-17T15:01:53+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+ERR: 非法操作:17
+
+[ 2017-04-17T15:46:55+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.039323s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000472s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000977s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000895s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2017-04-17T15:49:55+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.005923s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000334s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000728s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000632s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-04-17T15:52:13+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.030021s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.020202s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000301s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000696s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000668s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-04-17T15:52:18+08:00 ] ::1 /MyProject/ALK/index.php/Home/New/newsdetail/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+ERR: 无法加载控制器:New
+
+[ 2017-04-17T15:52:53+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.012914s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000321s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.001075s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.001036s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2017-04-17T15:53:11+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.073685s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000272s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000672s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000640s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2017-04-17T15:53:15+08:00 ] ::1 /MyProject/ALK/index.php/Home/News/newsdetail/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.015250s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-04-17T15:53:21+08:00 ] ::1 /MyProject/ALK/index.php/Home/News/newsdetail/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.016027s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-04-17T15:55:31+08:00 ] ::1 /MyProject/ALK/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.009735s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000156s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000964s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000586s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-04-17T15:55:34+08:00 ] ::1 /MyProject/ALK/index.php/Home/QuestProduct/wineculture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproducttype` [ RunTime:0.006982s ]
+SQL: SELECT * FROM `alk_tb_questproducttype`  [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000359s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000508s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-04-17T15:55:37+08:00 ] ::1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.010362s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.016921s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-04-17T16:09:16+08:00 ] ::1 /MyProject/ALK/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001748s ]
+
+[ 2017-04-17T16:09:31+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `alk_tb_admin` [ RunTime:0.054621s ]
+SQL: SELECT * FROM `alk_tb_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'd033e22ae348aeb5660fc2140aec35850c4da997' ) LIMIT 1   [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-04-17T16:09:35+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2017-04-17T16:09:42+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `alk_tb_admin` [ RunTime:0.015284s ]
+SQL: SELECT * FROM `alk_tb_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'd033e22ae348aeb5660fc2140aec35850c4da997' ) LIMIT 1   [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-04-17T16:09:45+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2017-04-17T16:09:51+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `alk_tb_admin` [ RunTime:0.011791s ]
+SQL: SELECT * FROM `alk_tb_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '40bd001563085fc35165329ea1ff5c5ecbdbbeef' ) LIMIT 1   [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002123s ]
+
+[ 2017-04-17T16:09:52+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-04-17T16:09:53+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `alk_tb_company` [ RunTime:0.012936s ]
+SQL: SELECT * FROM `alk_tb_company`  [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-04-17T16:10:01+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Admin/chuangpw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-04-17T16:10:19+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.007229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000509s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2017-04-17T16:10:36+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/edit/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.014346s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2017-04-17T16:10:58+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.015011s ]
+SQL: SELECT `newspath` FROM `alk_tb_news` WHERE ( `id` = 22 )  [ RunTime:0.000787s ]
+NOTIC: [2] unlink(./Public/Upload/newsimg/): Permission denied D:\wamp\www\MyProject\ALK\Application\Admin\Controller\NewsController.class.php 第 57 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: UPDATE `alk_tb_news` SET `id`=22,`newstitle`='红酒投资：“跑赢CPI”的另类',`newscontent`='&lt;a&gt;红酒投资：“跑赢CPI”的另类&lt;/a&gt;',`newspath`='2017-04-17/58f4789255c72.jpg',`newsdate`=1492416658 WHERE ( `id` = 22 ) [ RunTime:0.095686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004931s ]
+
+[ 2017-04-17T16:11:00+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.011884s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000352s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2017-04-17T16:11:26+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.012946s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000429s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000714s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000864s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2017-04-17T16:11:30+08:00 ] ::1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.010324s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2017-04-17T16:11:38+08:00 ] ::1 /MyProject/ALK/index.php/Home/News/news/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.006624s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000498s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 3,3   [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2017-04-17T16:12:04+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/edit/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.015803s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2017-04-17T16:12:11+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.014941s ]
+SQL: SELECT `newspath` FROM `alk_tb_news` WHERE ( `id` = 21 )  [ RunTime:0.000690s ]
+NOTIC: [2] unlink(./Public/Upload/newsimg/): Permission denied D:\wamp\www\MyProject\ALK\Application\Admin\Controller\NewsController.class.php 第 57 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: UPDATE `alk_tb_news` SET `id`=21,`newstitle`='萨卡西亚别样红',`newscontent`='&lt;a&gt;萨卡西亚别样红&lt;/a&gt;',`newspath`='2017-04-17/58f478db12c86.jpg',`newsdate`=1492416731 WHERE ( `id` = 21 ) [ RunTime:0.143402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003269s ]
+
+[ 2017-04-17T16:12:13+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.022134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000509s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002062s ]
+
+[ 2017-04-17T16:12:16+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/edit/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.018467s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 20 ) LIMIT 1   [ RunTime:0.001444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002127s ]
+
+[ 2017-04-17T16:12:22+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.016404s ]
+SQL: SELECT `newspath` FROM `alk_tb_news` WHERE ( `id` = 20 )  [ RunTime:0.000476s ]
+NOTIC: [2] unlink(./Public/Upload/newsimg/): Permission denied D:\wamp\www\MyProject\ALK\Application\Admin\Controller\NewsController.class.php 第 57 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: UPDATE `alk_tb_news` SET `id`=20,`newstitle`='红酒投资：“跑赢CPI”的另类',`newscontent`='&lt;a&gt;红酒投资：“跑赢CPI”的另类&lt;/a&gt;',`newspath`='2017-04-17/58f478e64498d.jpg',`newsdate`=1492416742 WHERE ( `id` = 20 ) [ RunTime:0.148593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001981s ]
+
+[ 2017-04-17T16:12:24+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.047762s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000663s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2017-04-17T16:12:27+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.013547s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.003423s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 3,3   [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2017-04-17T16:12:31+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/edit/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.010376s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2017-04-17T16:12:38+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.018750s ]
+SQL: SELECT `newspath` FROM `alk_tb_news` WHERE ( `id` = 19 )  [ RunTime:0.000391s ]
+NOTIC: [2] unlink(./Public/Upload/newsimg/): Permission denied D:\wamp\www\MyProject\ALK\Application\Admin\Controller\NewsController.class.php 第 57 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: UPDATE `alk_tb_news` SET `id`=19,`newstitle`='萨卡西亚别样红',`newscontent`='&lt;a&gt;萨卡西亚别样红&lt;/a&gt;',`newspath`='2017-04-17/58f478f651edc.jpg',`newsdate`=1492416758 WHERE ( `id` = 19 ) [ RunTime:0.182041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003748s ]
+
+[ 2017-04-17T16:12:40+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.016115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000665s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2017-04-17T16:12:44+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.074188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 3,3   [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2017-04-17T16:12:47+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/edit/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.011188s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2017-04-17T16:12:53+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.010523s ]
+SQL: SELECT `newspath` FROM `alk_tb_news` WHERE ( `id` = 18 )  [ RunTime:0.000454s ]
+NOTIC: [2] unlink(./Public/Upload/newsimg/): Permission denied D:\wamp\www\MyProject\ALK\Application\Admin\Controller\NewsController.class.php 第 57 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: UPDATE `alk_tb_news` SET `id`=18,`newstitle`='大连国际葡萄酒美食节得到国外酒...',`newscontent`='&lt;a&gt;大连国际葡萄酒美食节得到国外酒...&lt;/a&gt;',`newspath`='2017-04-17/58f4790522711.jpg',`newsdate`=1492416773 WHERE ( `id` = 18 ) [ RunTime:0.145162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002003s ]
+
+[ 2017-04-17T16:12:55+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.017817s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 0,3   [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2017-04-17T16:12:58+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.014823s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000565s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 3,3   [ RunTime:0.000801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2017-04-17T16:13:06+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/edit/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.010357s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2017-04-17T16:13:15+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.015839s ]
+SQL: SELECT `newspath` FROM `alk_tb_news` WHERE ( `id` = 17 )  [ RunTime:0.000775s ]
+NOTIC: [2] unlink(./Public/Upload/newsimg/): Permission denied D:\wamp\www\MyProject\ALK\Application\Admin\Controller\NewsController.class.php 第 57 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: UPDATE `alk_tb_news` SET `id`=17,`newstitle`='首届大连国际葡萄酒美食节闭幕',`newscontent`='&lt;a&gt;首届大连国际葡萄酒美食节闭幕&lt;/a&gt;',`newspath`='2017-04-17/58f4791bbdae7.jpg',`newsdate`=1492416795 WHERE ( `id` = 17 ) [ RunTime:0.137149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001926s ]
+
+[ 2017-04-17T16:13:18+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.007027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2017-04-17T16:13:20+08:00 ] ::1 /MyProject/ALK/index.php/Admin/News/select/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.018830s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000798s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id desc LIMIT 3,3   [ RunTime:0.000879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002078s ]
+
+[ 2017-04-17T16:13:27+08:00 ] ::1 /MyProject/ALK/index.php/Home/News/news/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.012441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 3,3   [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2017-04-17T16:14:43+08:00 ] ::1 /MyProject/ALK/index.php/Home/News/news/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.179660s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.000624s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 3,3   [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-04-17T16:14:48+08:00 ] ::1 /MyProject/ALK/index.php/Home/News/newsdetail/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.011992s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 20 ) LIMIT 1   [ RunTime:0.000764s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-04-17T16:16:41+08:00 ] ::1 /MyProject/ALK/index.php/Home/News/newsdetail/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.010406s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 20 ) LIMIT 1   [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2017-04-17T16:18:34+08:00 ] ::1 /MyProject/ALK/index.php/Home/Product/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.020416s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_product` LIMIT 1   [ RunTime:0.001318s ]
+SQL: SELECT * FROM `alk_tb_product` LIMIT 0,6   [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2017-04-17T16:24:28+08:00 ] ::1 /MyProject/ALK/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2017-04-17T16:24:35+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `alk_tb_admin` [ RunTime:0.029037s ]
+SQL: SELECT * FROM `alk_tb_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'd033e22ae348aeb5660fc2140aec35850c4da997' ) LIMIT 1   [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-04-17T16:24:38+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-04-17T16:24:44+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `alk_tb_admin` [ RunTime:0.011185s ]
+SQL: SELECT * FROM `alk_tb_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '40bd001563085fc35165329ea1ff5c5ecbdbbeef' ) LIMIT 1   [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-04-17T16:24:45+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2017-04-17T16:24:46+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `alk_tb_company` [ RunTime:0.011175s ]
+SQL: SELECT * FROM `alk_tb_company`  [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2017-04-17T16:24:55+08:00 ] ::1 /MyProject/ALK/index.php/Admin/QuestProductType/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproducttype` [ RunTime:0.012900s ]
+SQL: SELECT * FROM `alk_tb_questproducttype`  [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: iscid D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\59eec51d11577d5687725d4880b26a2d.php 第 23 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\59eec51d11577d5687725d4880b26a2d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2017-04-17T16:24:57+08:00 ] ::1 /MyProject/ALK/index.php/Admin/QuestProduct/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: select q.id,q.content,a.name from tb_questproduct q
+inner join tb_questproducttype a on q.questproducttypeid=a.id [ RunTime:0.075240s ]
+ERR: 1146:Table 'db_alk.tb_questproduct' doesn't exist
+ [ SQL语句 ] : select q.id,q.content,a.name from tb_questproduct q
+inner join tb_questproducttype a on q.questproducttypeid=a.id
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined variable: iscid D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\bb0c655e9922ddb628cc9a9ffd4a1b52.php 第 23 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\bb0c655e9922ddb628cc9a9ffd4a1b52.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-04-17T16:25:06+08:00 ] ::1 /MyProject/ALK/index.php/Admin/QuestProduct/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproducttype` [ RunTime:0.009911s ]
+SQL: SELECT * FROM `alk_tb_questproducttype`  [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000852s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002830s ]
+
+[ 2017-04-17T16:25:46+08:00 ] ::1 /MyProject/ALK/index.php/Admin/QuestProduct/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproduct` [ RunTime:0.009369s ]
+SQL: INSERT INTO `alk_tb_questproduct` (`questproducttypeid`,`content`) VALUES (1,'2013年格鲁吉亚葡萄酒出口同比2013年前9个月葡萄牙葡萄') [ RunTime:0.227936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2017-04-17T16:25:48+08:00 ] ::1 /MyProject/ALK/index.php/Admin/QuestProduct/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: select q.id,q.content,a.name from tb_questproduct q
+inner join tb_questproducttype a on q.questproducttypeid=a.id [ RunTime:0.000776s ]
+ERR: 1146:Table 'db_alk.tb_questproduct' doesn't exist
+ [ SQL语句 ] : select q.id,q.content,a.name from tb_questproduct q
+inner join tb_questproducttype a on q.questproducttypeid=a.id
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined variable: iscid D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\bb0c655e9922ddb628cc9a9ffd4a1b52.php 第 23 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\bb0c655e9922ddb628cc9a9ffd4a1b52.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002724s ]
+
+[ 2017-04-17T16:27:27+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2017-04-17T16:27:28+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `alk_tb_company` [ RunTime:0.007373s ]
+SQL: SELECT * FROM `alk_tb_company`  [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-04-17T16:27:31+08:00 ] ::1 /MyProject/ALK/index.php/Admin/QuestProduct/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: select q.id,q.content,a.name from alk_tb_questproduct q
+inner join alk_tb_questproducttype a on q.questproducttypeid=a.id [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: iscid D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\bb0c655e9922ddb628cc9a9ffd4a1b52.php 第 23 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\bb0c655e9922ddb628cc9a9ffd4a1b52.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2017-04-17T16:28:51+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.009781s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000341s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000721s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000688s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2017-04-17T16:28:55+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.016659s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000512s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.001655s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.001243s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2017-04-17T16:29:42+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.016468s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000433s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.001097s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000958s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2017-04-17T16:29:52+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.007447s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000340s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000662s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000656s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-04-17T16:30:27+08:00 ] ::1 /MyProject/ALK/index.php/Home/QuestProduct/wineculture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproducttype` [ RunTime:0.011343s ]
+SQL: SELECT * FROM `alk_tb_questproducttype`  [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000941s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000861s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2017-04-17T16:30:33+08:00 ] ::1 /MyProject/ALK/index.php/Home/QuestProduct/quest/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproduct` [ RunTime:0.045775s ]
+SQL: SELECT * FROM `alk_tb_questproduct` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2017-04-17T16:30:53+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.009676s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000236s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.001027s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' ) 
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000622s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2017-04-17T16:31:25+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.013447s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000367s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000522s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2017-04-17T16:32:38+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.009152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_product` LIMIT 1   [ RunTime:0.000553s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: iscid D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\2c680f2b53b0fd42199375a3032c5099.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-04-17T16:32:54+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2017-04-17T16:33:29+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.015003s ]
+SQL: INSERT INTO `alk_tb_product` (`productname`,`degree`,`years`,`producingareas`,`grade`,`picpath`) VALUES ('葡萄酒',12,'2016','法国',1,'2017-04-17/58f47dd8a3d0e.jpg') [ RunTime:0.131648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001962s ]
+
+[ 2017-04-17T16:33:32+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.016004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_product` LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: iscid D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\2c680f2b53b0fd42199375a3032c5099.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2017-04-17T16:33:49+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2017-04-17T16:34:20+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.010835s ]
+SQL: INSERT INTO `alk_tb_product` (`productname`,`degree`,`years`,`producingareas`,`grade`,`picpath`) VALUES ('橄榄油',0,'0','0',0,'2017-04-17/58f47e0ad4264.jpg') [ RunTime:0.218959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2017-04-17T16:34:22+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.015590s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_product` LIMIT 1   [ RunTime:0.000794s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: iscid D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\2c680f2b53b0fd42199375a3032c5099.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2017-04-17T16:34:24+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000594s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2017-04-17T16:34:39+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.174660s ]
+SQL: INSERT INTO `alk_tb_product` (`productname`,`degree`,`years`,`producingareas`,`grade`,`picpath`) VALUES ('蜂蜜',0,'0','0',0,'2017-04-17/58f47e1e2e379.jpg') [ RunTime:0.124168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003986s ]
+
+[ 2017-04-17T16:34:41+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.006627s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_product` LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined variable: iscid D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\2c680f2b53b0fd42199375a3032c5099.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2017-04-17T16:34:43+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2017-04-17T16:34:58+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.009786s ]
+SQL: INSERT INTO `alk_tb_product` (`productname`,`degree`,`years`,`producingareas`,`grade`,`picpath`) VALUES ('其它',0,'0','0',0,'2017-04-17/58f47e3137391.jpg') [ RunTime:0.410921s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002737s ]
+
+[ 2017-04-17T16:35:00+08:00 ] ::1 /MyProject/ALK/index.php/Admin/Product/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.030284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_product` LIMIT 1   [ RunTime:0.000544s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id desc LIMIT 0,3   [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: iscid D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Admin\2c680f2b53b0fd42199375a3032c5099.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2017-04-17T16:39:34+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.006112s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000253s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.001620s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.007861s ]
+ERR: Think\Controller:limit方法不存在！
+
+[ 2017-04-17T16:43:01+08:00 ] ::1 /MyProject/ALK/index.php/Home/QuestProduct/quest/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproduct` [ RunTime:0.047715s ]
+SQL: SELECT * FROM `alk_tb_questproduct` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2017-04-17T16:43:10+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.007023s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000269s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000455s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.008402s ]
+ERR: Think\Controller:limit方法不存在！
+
+[ 2017-04-17T16:44:30+08:00 ] ::1 /MyProject/ALK/index.php/Home/QuestProduct/quest/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproduct` [ RunTime:0.010687s ]
+SQL: SELECT * FROM `alk_tb_questproduct` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2017-04-17T16:44:33+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.043124s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000326s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000561s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.006693s ]
+ERR: Think\Controller:limit方法不存在！
+
+[ 2017-04-17T16:46:32+08:00 ] ::1 /MyProject/ALK/index.php/Home/QuestProduct/quest/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproduct` [ RunTime:0.017138s ]
+SQL: SELECT * FROM `alk_tb_questproduct` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2017-04-17T16:46:35+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.007466s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000161s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000369s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.006755s ]
+ERR: Think\Controller:limit方法不存在！
+
+[ 2017-04-17T16:47:07+08:00 ] ::1 /MyProject/ALK/index.php/Home/QuestProduct/quest/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproduct` [ RunTime:0.016200s ]
+SQL: SELECT * FROM `alk_tb_questproduct` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2017-04-17T16:47:10+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.009674s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000441s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000473s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.007318s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: product D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 206 行.
+NOTIC: [8] Undefined index: product D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 206 行.
+NOTIC: [8] Undefined index: product D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 206 行.
+NOTIC: [8] Undefined index: product D:\wamp\www\MyProject\ALK\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2017-04-17T16:47:25+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003283s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.006804s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000152s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000364s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.007253s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-04-17T16:49:04+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.006730s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000261s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000605s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.008288s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2017-04-17T16:49:20+08:00 ] ::1 /MyProject/ALK/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.010451s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000232s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.000597s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.043770s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2017-04-17T16:49:24+08:00 ] ::1 /MyProject/ALK/index.php/Home/Product/productsdetail/id/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.014511s ]
+SQL: SELECT * FROM `alk_tb_product` WHERE ( `id` = 38 ) LIMIT 1   [ RunTime:0.000945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2017-04-17T16:49:43+08:00 ] ::1 /MyProject/ALK/index.php/Home/QuestProduct/wineculture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `alk_tb_questproducttype` [ RunTime:0.010263s ]
+SQL: SELECT * FROM `alk_tb_questproducttype`  [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.000172s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000761s ]
+ERR: 1146:Table 'db_alk.tb_questproducttype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+

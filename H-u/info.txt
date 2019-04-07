@@ -1,0 +1,12 @@
+﻿<category>moban</category>
+
+<album>网页模板</album>
+
+<title>[网页模板]cms企业后台管理模板html下载</title>
+
+<content>cms企业后台管理模板html下载</content>
+
+<refurl>index.html</refurl>
+
+<image><url>cover.jpg</url>
+<tag>Bootstrap模板 响应式模板 整站模板 后台模板 HTML5模板 CSS3模板 登陆页模板</tag>

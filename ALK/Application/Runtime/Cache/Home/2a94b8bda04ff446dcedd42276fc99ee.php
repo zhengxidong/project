@@ -1,0 +1,301 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<title>澳力康</title>
+<link rel="shortcut icon" href="/MyProject/ALK/Public/Home/images/favicon.ico">
+<link rel="stylesheet" href="/MyProject/ALK/Public/Home/css/css.css" type="text/css" />
+<link rel="stylesheet" href="/MyProject/ALK/Public/Home/css/indexzzsc.css" type="text/css" />
+<link type="text/css" href="/MyProject/ALK/Public/Home/css/indexflexslider.min.css" rel="stylesheet" />
+<link type="text/css" href="/MyProject/ALK/Public/Home/css/lrtk.css" rel="stylesheet" />
+<script type="text/javascript" src="/MyProject/ALK/Public/Home/js/jquery.js"></script>
+<script type="text/javascript" src="/MyProject/ALK/Public/Home/js/js.js"></script>
+<script src="/MyProject/ALK/Public/Home/js/myFocus.js" type="text/javascript"></script>
+<script src="/MyProject/ALK/Public/Home/js/16sucai.js" type="text/javascript"></script>
+<script type="text/javascript" src="/MyProject/ALK/Public/Home/js/jquery.min.js"></script>
+<script type="text/javascript" src="/MyProject/ALK/Public/Home/js/jquery.flexslider.min.js"></script>
+
+<script type="text/javascript">
+
+$(window).load(function() {
+$('.flexslider').flexslider();
+});
+
+$(document).ready(function() {
+$('.flexslider').hover(function() {
+$('.flex-direction-nav li a.prev').css('display', 'block');
+$('.flex-direction-nav li a.next').css('display', 'block');
+}, function() {
+$('.flex-direction-nav li a.prev').css('display', 'none');
+$('.flex-direction-nav li a.next').css('display', 'none');
+});
+
+});
+
+</script>
+
+</head>
+
+
+
+<body>
+<div style="background:url(/MyProject/ALK/Public/Home/images/bg.jpg) top no-repeat">
+<!-------------------------  logo s ---------------------->
+<div class="logo">
+<div class="logoa"><a href="index.html"><img src="/MyProject/ALK/Public/Home/images/logo02.png"/></a></div>
+</div>
+<!-------------------------  logo e ---------------------->
+
+
+
+<!-------------------------  box s ---------------------->
+<div class="box">
+
+
+<!-------------------------  menu s ---------------------->
+<div class="muen">
+<ul>
+    <li><a href="<?php echo U('Home/Index/index');?>" class="c">首页<br/><span>Home</span></a></li>
+    <li><a href="<?php echo U('Home/Company/company');?>">公司简介<br/><span>Company</span></a></li>
+    <li><a href="<?php echo U('Home/News/news');?>">新闻资讯<br/><span>News</span></a></li>
+    <li><a href="<?php echo U('Home/QuestProduct/wineculture');?>">探秘产品<br/><span>Quest Product</span></a></li>
+    <li><a href="<?php echo U('Home/Product/select');?>">产品展示<br/><span>Products shows</span></a></li>
+    <li><a href="<?php echo U('Home/Member/area');?>">商务专区<br/><span>Business Area</span></a></li>
+    <li><a href="<?php echo U('Home/JoinsUs/merchants');?>">招商加盟<br/><span>Joins   Us</span></a></li>
+    <li><a href="<?php echo U('Home/CustomerService/security');?>">客服服务<br/><span>Customer Service</span></a></li>
+    <li><a href="<?php echo U('Home/ContactUs/contactus');?>">联系我们<br/><span>Contact Us</span></a></li>
+</ul>
+</div>
+<!-------------------------  menu e ---------------------->
+
+
+<!-------------------------  banner s ---------------------->
+<div class="banner">
+    <div class="moduletable-banner">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="/MyProject/ALK/Public/Home/images/banner01.jpg" width="1004px" height="405" /></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="/MyProject/ALK/Public/Home/images/banner02.jpg" width="1004px" height="405"  /></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="/MyProject/ALK/Public/Home/images/banner01.jpg" width="1004px" height="405" /></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="/MyProject/ALK/Public/Home/images/banner02.jpg" width="1004px" height="405"  /></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-------------------------  banner e ---------------------->
+
+
+<!-------------------------  main s ---------------------->
+<div class="main">
+
+<!-------------------------  main-l s ---------------------->
+<div class="main_l">
+
+<div class="main_la">
+
+<div class="main_lat">
+<div class="main_lbt"><img src="/MyProject/ALK/Public/Home/images/main_la01.jpg"/></div>
+<div class="main_lbt1"><img src="/MyProject/ALK/Public/Home/images/main_la02.jpg"/></div>
+</div>
+
+<div class="main_lad">
+<div class="main_lad_main"><div class="myFocus-box">
+<div id="myFocus">
+	<div class="loading"><span>请稍候...</span></div><!--载入画面-->
+	<ul class="pic"><!--内容列表-->
+    	<li><a href="#"><img src="/MyProject/ALK/Public/Home/images/1.jpg" thumb="" alt="" text="" /></a></li>
+        <li><a href="#"><img src="/MyProject/ALK/Public/Home/images/2.jpg" thumb="" alt="" text="" /></a></li>
+        <li><a href="#"><img src="/MyProject/ALK/Public/Home/images/3.jpg" thumb="" alt="" text="" /></a></li>
+        <li><a href="#"><img src="/MyProject/ALK/Public/Home/images/4.jpg" thumb="" alt="" text="" /></a></li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="main_lb">
+
+<div class="main_ldt">
+<div class="main_lbt"><img src="/MyProject/ALK/Public/Home/images/main_lb01.jpg"/></div>
+<div class="main_lbt1"><img src="/MyProject/ALK/Public/Home/images/main_lb02.jpg"/></div>
+</div>
+
+<div class="main_lbd">
+<div class="main_lbd_list">
+	<ul>
+        <?php if(is_array($news)): foreach($news as $key=>$value): ?><li><span><?php echo (newssj($value['newsdate'])); ?></span><a href="<?php echo U('Home/News/newsdetail',array('id'=>$value['id']));?>"><?php echo ($value['newstitle']); ?></a></li><?php endforeach; endif; ?>
+    </ul>
+    <div class="clear"></div>
+	<br/>
+	</div>
+</div>
+
+</div>
+
+<div class="main_lc">
+<div class="main_lc_title"><img src="/MyProject/ALK/Public/Home/images/main_lc03.jpg"/></div>
+<div class="main_lc_title1"><a href="Joins   Us.html"><img src="/MyProject/ALK/Public/Home/images/main_lc02.jpg"/></a></div>
+</div>
+
+<div class="main_ld">
+
+<div class="main_ldt">
+<div class="main_ldtl"><img src="/MyProject/ALK/Public/Home/images/main_lc04.jpg"/></div>
+<div class="main_ldtr"><a href="Quest Product2.html"><img src="/MyProject/ALK/Public/Home/images/main_ld01.jpg"/></a></div>
+</div>
+
+<div class="main_ldd">
+<div class="main_lddl"><div class="main_lddl1"><a href="#"><img src="/MyProject/ALK/Public/Home/images/main_ld03.jpg" width="140" height="81"/></a></div></div>
+<div class="main_lddr">
+<div class="a_newslist_list">
+	<ul>
+        <?php if(is_array($listgl)): $i = 0; $__LIST__ = $listgl;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li style="background:url(images/main_ld04.jpg) no-repeat;"><a href="#"><?php echo ($vo["content"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+	<!--<li><a href="#">橄榄油食用最佳方法:生吃</a></li>
+    <li style="background:url(images/main_ld04.jpg) no-repeat;"><a href="#">常吃橄榄油不易得中风</a></li>
+	<li><a href="#">橄榄树的起源与文化</a></li>-->
+    </ul>
+    <div class="clear"></div>
+	<br/>
+	</div>
+</div>
+</div>
+
+</div>
+
+</div>
+<!-------------------------  main-l e ---------------------->
+
+
+<!-------------------------  main-r s ---------------------->
+<div class="main_r">
+
+<div class="main_ra">
+<div class="main_rat">
+<div class="main_rat_title"><img src="/MyProject/ALK/Public/Home/images/main_ra04.jpg"/></div>
+</div>
+<div class="main_ral"><a href="#"><img src="/MyProject/ALK/Public/Home/images/main_ra02.jpg" width="283" height="214"/></a></div>
+<div class="main_rar"><a href="Company.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位于广西桂林市八里街定江三号经济开发区，是由桂林市万康生物科技有限公司和澳大利亚澳丹有限公司（Audan  Australia  Pty  Ltd）共同投资创建，专门从事澳洲及世界优质橄榄油、葡萄酒及保健品等产品进口贸易的实业公司。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;澳力康公司拥有一支专业化、高素质、德才兼备,崇尚和致力于推广安全、绿色健康食品的员工队伍.为确保公司经营的每一款产品符合绿色天然，安全健康的食品标准，公司除在澳洲</a></div>
+<div class="main_rar1"></div>
+</div>
+
+<div class="main_rb">
+
+<div class="mian_rbt">
+<div class="mian_rbtl"><img src="/MyProject/ALK/Public/Home/images/main_rb01.jpg"/></div>
+<div class="main_ldtr"><a href="Products shows.html"><img src="/MyProject/ALK/Public/Home/images/main_ld01.jpg"/></a></div>
+</div>
+
+<div class="mian_rbd">
+<?php if(is_array($product)): foreach($product as $key=>$value): ?><div class="productlist1">
+<a href="<?php echo U('Home/Product/productsdetail',array('id'=>$value['id']));?>">
+<DIV class="productimg"><img src="/MyProject/ALK/Public/Upload/Product/<?php echo ($value['picpath']); ?>" width="134" height="131"/></DIV>
+<div class="producttext"><?php echo ($value['productname']); ?></DIV>
+</a>
+</div><?php endforeach; endif; ?>
+
+</div>
+
+</div>
+
+
+
+<div class="main_rc">
+
+<div class="main_rct">
+<div class="mian_rctl"><img src="/MyProject/ALK/Public/Home/images/main_rc01.jpg"/></div>
+<div class="main_ldtr"><a href="Quest Product.html"><img src="/MyProject/ALK/Public/Home/images/main_ld01.jpg"/></a></div>
+</div>
+
+<div class="main_rcd">
+
+<div class="mian_rcdl">
+<div class="mian_rcdl_list">
+	<ul>
+        <?php if(is_array($listpt)): $i = 0; $__LIST__ = $listpt;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="#"><?php echo ($vo["content"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+    </ul>
+    <div class="clear"></div>
+	<br/>
+	</div>
+</div>
+
+<div class="mian_rcdr"><img src="/MyProject/ALK/Public/Home/images/main_rc03.jpg"/></div>
+
+</div>
+
+</div>
+
+
+</div>
+<!-------------------------  main-r e ---------------------->
+
+</div>
+<div class="clear"></div>
+<!-------------------------  main e ---------------------->
+
+</div>
+<!-------------------------  box e ---------------------->
+
+
+
+
+
+
+
+
+
+
+<!-------------------------  footer s ---------------------->
+<div class="footer">
+<div class="footer_main">
+<div class="H20"></div>
+Copyright © 桂林澳力康食品有限责任公司  版权所有<br/>
+手机号码：13393639268  电话/传真：0773-2639188  电子邮箱：aullican@126.com<br/>
+公司地址：广西桂林八里街工业园区
+</div>
+</div>
+<!-------------------------  footer e ---------------------->
+</div>
+
+<!--代码开始-->
+<div id="chat_f1">
+	<div id="chat_f1_main">
+		<div id="close"></div>
+		<a title="点击咨询在线客服" href="#" class="a_kf"></a>
+		<a title="点击咨询售后" href="#" class="a_sh"></a>
+	</div>
+	<div class="chat_f1_expr">
+		<div class="list">
+		<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=541410829&site=qq&menu=yes"><img border="0" src="/MyProject/ALK/Public/Home/images/kefu01.jpg" title="点击这里给我发消息">&nbsp;</a>
+		<br/>
+		<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=541410829&site=qq&menu=yes"><img border="0" src="/MyProject/ALK/Public/Home/images/kefu02.jpg" title="点击这里给我发消息">&nbsp;</a>
+		<br/>
+		</div>
+		<div class="list">
+		手机号码：<br/><span style="color:#b40303;">13393639268</span>
+		</div>
+		<div class="list">	
+		电话/传真：<br/><span style="color:#b40303;">0773-2639188</span>
+		</div>
+	</div>
+	<div id="chat_f1_bottom"></div>
+</div>
+<div id="chat_f2" style="display:none;">我要咨询</div>
+<!--代码结束-->
+</body>
+
+</html>

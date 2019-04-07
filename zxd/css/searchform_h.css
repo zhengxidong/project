@@ -1,0 +1,21 @@
+/* ============ËÑË÷±íµ¥============== */
+div.searchform_h{
+padding:20px;
+}
+
+div.searchform{
+padding:0px 0px 7px 0px;
+}
+
+div.searchform .input{
+border:1px #e0e0e0 solid;
+width:208px;
+height:26px;
+line-height:26px;
+background:#fff;
+}
+
+div.searchform select{
+width:160px;
+}
+

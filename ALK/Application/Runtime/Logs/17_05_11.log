@@ -1,0 +1,83 @@
+[ 2017-05-11T00:55:16+08:00 ] ::1 /MyProject/ALK/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020212s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.042642s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.048651s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.059605s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知�\�' )  [ RunTime:0.084425s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文�\�' )  [ RunTime:0.061010s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.066699s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.068245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004307s ]
+
+[ 2017-05-11T00:58:23+08:00 ] ::1 /MyProject/ALK/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.038424s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.040148s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.038747s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知�\�' )  [ RunTime:0.040609s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文�\�' )  [ RunTime:0.040661s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.039191s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.042988s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000545s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2017-05-11T00:58:28+08:00 ] ::1 /MyProject/ALK/index.php/Home/Company/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `alk_tb_company` [ RunTime:0.041053s ]
+SQL: SELECT * FROM `alk_tb_company`  [ RunTime:0.055216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+

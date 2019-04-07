@@ -1,0 +1,29 @@
+[ 2017-04-20T21:33:50+08:00 ] ::1 /MyProject/ALK/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018134s ]
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.071674s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.010905s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '橄榄油知识' )  [ RunTime:0.088531s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = '葡萄酒文化' )  [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.044787s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.001482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008024s ]
+

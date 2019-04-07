@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/pintuer.css">
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/admin.css">
+<script src="__PUBLIC__/Admin/js/jquery.js"></script>
+<script src="__PUBLIC__/Admin/js/pintuer.js"></script>
+
+<!--编辑器第一步-->
+<link rel="stylesheet" href="__PUBLIC__/Admin/plugins/themes/default/default.css" />
+<script charset="utf-8" src="__PUBLIC__/Admin/plugins/kindeditor-min.js"></script>
+<script charset="utf-8" src="__PUBLIC__/Admin/plugins/lang/zh_CN.js"></script>
+</head>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 公司简介</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="<!--{:U('Admin/Company/update')}-->">
+        <input type="hidden" name="id" value="<!--{$arr[0]['id']}-->"/>
+      <div class="form-group">
+        <div class="label">
+          <label>内容：</label>
+        </div>
+        <div class="field">
+          <textarea name="content"><!--{$arr[0]['content']}--></textarea>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field" style="text-align: center">
+            <if condition="$arr[0]['id'] eq ''">
+                <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+                <else/>
+                <button class="button bg-main icon-check-square-o" type="submit"> 更新</button>
+            </if>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<script type="text/javascript">
+     var editor;
+    KindEditor.ready(function(K){
+        editor = K.create('textarea[name="content"]');
+    })
+</script>
+</body></html>

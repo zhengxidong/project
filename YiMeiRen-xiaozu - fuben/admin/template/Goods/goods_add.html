@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+
+    </style>
+    <script type="text/javascript" src="../public/admin/lib/jquery/1.9.1/jquery.min.js"></script>
+    <!--编辑器第一步-->
+    <!--<link rel="stylesheet" href="../public/admin/plugin/themes/default/default.css" />
+    <script charset="utf-8" src="../public/admin/plugin/kindeditor-min.js"></script>
+    <script charset="utf-8" src="../public/admin/plugin/lang/zh-CN.js"></script>-->
+</head>
+<body>
+<form action="?c=goods&a=add" method="post" enctype="multipart/form-data">
+
+    <div id="xxk1">
+        <p>商品标题：<input type="text" name="title"/></p>
+        <p>分类：
+            <select name="categoryid" id="sortid">
+                <option value="0">顶部分类</option>
+                <!--{$category|tree}-->
+            </select></p>
+        <p>价格：<input type="text" name="price"/></p>
+
+        <p>上传图片：<input type="file" name="wj[]" multiple/></p>
+
+        <p>库存：<input type="text" name="kucun"/></p>
+
+        <p>新品：<input type="radio" value="1" name="isnew"/>是
+            <input type="radio" value="0" name="isnew" checked />否</p>
+
+        <p>热卖：<input type="radio" value="1" name="ishot"/>是
+            <input type="radio" value="0" name="ishot" checked />否</p>
+
+        <p>推荐：<input type="radio" value="1" name="tj"/>是
+            <input type="radio" value="0" name="tj" checked />否</p>
+        <!--编辑器第二步-->
+        详情：<textarea name="detail" id="" style="width: 800px;height:400px;"></textarea>
+    </div>
+    <div id="xxk2"><p id="type">类型：
+        <select name="typeid" id="goodstype">
+            <option value="">--请选择--</option>
+            <!--{foreach $type as $value}-->
+            <option value="<!--{$value['id']}-->"><!--{$value['type']}--></option>
+            <!--{/foreach}-->
+        </select></p>
+    </div>
+    <p><input type="submit" name="submit" value="提交"/></p>
+</form>
+
+<script type="text/javascript">
+    $("#goodstype").change(function(){
+        $.getJSON("?c=goods&a=getAttr",
+                {id:$(this).val()},
+                function(msg){
+                    $("#xxk2 p[id!=type]").remove();
+                    for(var i=0;i<msg.length;i++){
+                        //动态生成表单元素
+                        $("<p>"+msg[i].attr+":<input type='text' name='attr_list[]'value='' />" +
+                        "<input type='hidden' name='attr_id[]' value='" +
+                        msg[i].id+"' /></p>").appendTo($("#xxk2"));
+                    }
+                });
+
+    });
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{include file="public/meta" /}
+
+{block name="seo"}
+   网站标题关键字与描述
+{/block}
+
+{block name='header'} 给header设置block，在其它页面如果不需要header，将block置为空即可
+{include file="public/header" /}
+{/block}
+
+{block name='menu'}
+{include file="public/menu" /}
+{/block}
+
+{block name="content"}
+页面主题内容
+{/block}
+
+
+{include file="public/footer" /}
+{block name="js"}
+js脚本
+{/block}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript">
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+
+</body>
+</html>

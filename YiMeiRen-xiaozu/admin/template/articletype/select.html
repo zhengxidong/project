@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../public/admin/js/html5.js"></script>
+<script type="text/javascript" src="../public/admin/js/respond.min.js"></script>
+<script type="text/javascript" src="../public/admin/js/PIE_IE678.js"></script>
+<![endif]-->
+<link type="text/css" rel="stylesheet"href="../public/admin/css/H-ui.css"/>
+<link type="text/css" rel="stylesheet"href="../public/admin/css/H-ui.admin.css"/>
+<link type="text/css" rel="stylesheet" href="../public/admin/font/font-awesome.min.css"/>
+<!--[if IE 7]>
+<link href="../public/admin/font/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<title>分类管理</title>
+</head>
+<body>
+<nav class="Hui-breadcrumb"><i class="icon-home"></i> 首页 <span class="c-gray en">&gt;</span> 资讯管理 <span class="c-gray en">&gt;</span> 分类管理 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="icon-refresh"></i></a></nav>
+<div class="pd-20 text-c">
+  <form class="Huiform" action="/" method="post">
+    上级栏目：
+    <select class="select" id="sel_Sub" name="sel_Sub" onChange="SetSubID(this);">
+      <option value="0">顶级分类</option>
+      <option value="100">分类一级</option>
+      <option value="101">&nbsp;&nbsp;├ 分类二级</option>
+      <option value="102">&nbsp;&nbsp;├ 分类二级</option>
+      <option value="201">分类一级</option>
+      <option value="101">&nbsp;&nbsp;├ 分类二级</option>
+    </select>
+    <input type="hidden" id="hid_ccid" value="">
+    <input class="input-text" style="width:250px" type="text" value="" placeholder="输入分类" id="article-class-val"><button type="button" class="btn btn-success" id="" name="" onClick="article_class_add(this);"><i class="icon-plus"></i> 添加</button>
+  </form>
+    <div class="cl pd-5 bg-1 bk-gray mt-20">
+    <span class="l"><a href="javascript:;" onClick="datadel()" class="btn btn-danger radius"><i class="icon-trash"></i> 批量删除</a>
+    <a href="?c=articletype&a=add" class="btn btn-primary radius"><i class="icon-plus"></i> 添加文章分类</a>
+    </span>
+        <span class="r">共有数据：<strong>54</strong> 条</span>
+    </div>
+  <div class="article-class-list cl mt-20">
+    <table class="table table-border table-bordered table-hover table-bg">
+      <thead>
+        <tr class="text-c">
+          <th width="25"><input type="checkbox" name="" value=""></th>
+          <th width="80">ID</th>
+          <th width="80">文章分类名称</th>
+          <th>新增时间</th>
+          <th width="70">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+      <!--{foreach $arr as $value}-->
+      <!--{if $arr eq ''}-->
+      <!--{else}-->
+        <tr class="text-c">
+          <td><input type="checkbox" name="" value=""></td>
+          <td><!--{$value['id']}--></td>
+          <td><!--{$value['articletypename']}--></td>
+          <td class="text-l"><!--{$value['articletypetime']}--></td>
+          <td class="f-14">
+              <a title="编辑" href="?c=articletype&a=edit&id=<!--{$value['id']}-->"  style="text-decoration:none"><i class="icon-edit"></i></a>
+              <a title="删除" href="javascript:void(0)" onClick="if(confirm('确认删除吗？')){location.href='?c=articletype&a=delete&id=<!--{$value['id']}-->'}" class="ml-5" style="text-decoration:none"><i class="icon-trash"></i></a>
+          </td>
+        </tr>
+      <!--{/if}-->
+      <!--{/foreach}-->
+      </tbody>
+    </table>
+  </div>
+</div>
+<script type="text/javascript" src="../public/admin/js/jquery.min.js"></script>
+<script type="text/javascript" src="../public/admin/js/Validform_v5.3.2_min.js"></script> 
+<script type="text/javascript" src="../public/admin/layer/layer.min.js"></script>
+<script type="text/javascript" src="../public/admin/js/H-ui.js"></script>
+<script type="text/javascript" src="../public/admin/js/H-ui.admin.js"></script>
+
+</body>
+</html>

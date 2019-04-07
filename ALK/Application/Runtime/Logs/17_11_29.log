@@ -1,0 +1,794 @@
+[ 2017-11-29T21:01:03+08:00 ] 127.0.0.1 /MyProject/ALK/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.047289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047547s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.045520s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.047256s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.044254s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ê©ÑÊ¶ÑÊ≤πÁü•ËØ\Ü' )  [ RunTime:0.049308s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ëë°ËêÑÈÖíÊñáÂå\ñ' )  [ RunTime:0.048951s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.052079s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.043033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.672580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.672993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.038238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.678051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.680651s ]
+
+[ 2017-11-29T21:01:15+08:00 ] 127.0.0.1 /MyProject/ALK/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.039944s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.038950s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.045499s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ê©ÑÊ¶ÑÊ≤πÁü•ËØ\Ü' )  [ RunTime:0.038810s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ëë°ËêÑÈÖíÊñáÂå\ñ' )  [ RunTime:0.042056s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.039976s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.039419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2017-11-29T21:02:31+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.039919s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.041585s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.039617s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ê©ÑÊ¶ÑÊ≤πÁü•ËØ\Ü' )  [ RunTime:0.039759s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ëë°ËêÑÈÖíÊñáÂå\ñ' )  [ RunTime:0.040702s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.040960s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.040636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2017-11-29T21:03:27+08:00 ] 127.0.0.1 /MyProject/ALK/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.042183s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.041785s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.041462s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ê©ÑÊ¶ÑÊ≤πÁü•ËØ\Ü' )  [ RunTime:0.041067s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ëë°ËêÑÈÖíÊñáÂå\ñ' )  [ RunTime:0.041487s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.039080s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.037485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2017-11-29T21:03:41+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.040006s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.040154s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.038664s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ê©ÑÊ¶ÑÊ≤πÁü•ËØ\Ü' )  [ RunTime:0.040307s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ëë°ËêÑÈÖíÊñáÂå\ñ' )  [ RunTime:0.040182s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.039404s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.041002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2017-11-29T21:05:28+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/index/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index
+
+[ 2017-11-29T21:05:40+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.039448s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.040633s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.038279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001765s ]
+
+[ 2017-11-29T21:06:24+08:00 ] 127.0.0.1 /MyProject/ALK/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.039743s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.038342s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.294649s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ê©ÑÊ¶ÑÊ≤πÁü•ËØ\Ü' )  [ RunTime:0.039248s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ëë°ËêÑÈÖíÊñáÂå\ñ' )  [ RunTime:0.294151s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.041497s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.297580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000581s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-11-29T21:06:53+08:00 ] 127.0.0.1 /MyProject/ALK/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.040121s ]
+SQL: SELECT * FROM `alk_tb_news`  [ RunTime:0.039268s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.039588s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ê©ÑÊ¶ÑÊ≤πÁü•ËØ\Ü' )  [ RunTime:0.040688s ]
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN alk_tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ëë°ËêÑÈÖíÊñáÂå\ñ' )  [ RunTime:0.041698s ]
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.037744s ]
+SQL: SELECT * FROM `alk_tb_product` ORDER BY id DESC LIMIT 4   [ RunTime:0.037455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2017-11-29T21:06:58+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.045162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.038542s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.040625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-11-29T21:29:08+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.040351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.041639s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.046077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2017-11-29T21:30:15+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/newsdetail/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.039742s ]
+SQL: SELECT * FROM `alk_tb_news` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.045148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001951s ]
+
+[ 2017-11-29T21:32:11+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.038667s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.038077s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.037492s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\MyProject\ALK\Application\Home\Controller\NewsController.class.php Á¨¨ 21 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2017-11-29T21:32:39+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.042233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.038441s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.040191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2017-11-29T21:33:11+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.045995s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.037453s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.043072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2017-11-29T21:34:06+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+NOTIC: [2] mysql_connect(): ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ”∑ÔøΩÔøΩÔøΩ“ªÔøΩÔøΩ ±ÔøΩÔøΩÔøΩ√ªÔøΩÔøΩÔøΩ»∑ÔøΩ∏¥ªÔøΩ”µÔøΩÔøΩÔøΩÔøΩ√ªÔøΩ–∑ÔøΩ”¶ÔøΩÔøΩÔøΩÔøΩÔøΩ”≥ÔøΩÔøΩÔøΩ ßÔøΩ‹°ÔøΩ
+ D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-11-29T21:34:07+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.044455s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.044516s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.043849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-11-29T21:34:18+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.043760s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.043964s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.046348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2017-11-29T21:34:38+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.040364s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.042176s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.043421s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\MyProject\ALK\Application\Home\Controller\NewsController.class.php Á¨¨ 21 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2017-11-29T21:35:45+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-11-29T21:35:56+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.041166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.040630s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.040478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2017-11-29T21:36:45+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.039043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.038413s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.040219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-11-29T21:37:01+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.042130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.036828s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.039563s ]
+NOTIC: [8] Use of undefined constant newspath - assumed 'newspath' D:\phpStudy\WWW\MyProject\ALK\Application\Home\Controller\NewsController.class.php Á¨¨ 23 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2017-11-29T21:40:54+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_news` [ RunTime:0.039655s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_news` LIMIT 1   [ RunTime:0.043751s ]
+SQL: SELECT * FROM `alk_tb_news` ORDER BY id LIMIT 0,3   [ RunTime:0.038854s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001691s ]
+
+[ 2017-11-29T21:41:09+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/Company/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_company` [ RunTime:0.040771s ]
+SQL: SELECT * FROM `alk_tb_company`  [ RunTime:0.040668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2017-11-29T21:41:48+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/QuestProduct/wineculture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+NOTIC: [2] mysql_connect(): ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ”∑ÔøΩÔøΩÔøΩ“ªÔøΩÔøΩ ±ÔøΩÔøΩÔøΩ√ªÔøΩÔøΩÔøΩ»∑ÔøΩ∏¥ªÔøΩ”µÔøΩÔøΩÔøΩÔøΩ√ªÔøΩ–∑ÔøΩ”¶ÔøΩÔøΩÔøΩÔøΩÔøΩ”≥ÔøΩÔøΩÔøΩ ßÔøΩ‹°ÔøΩ
+ D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-11-29T21:41:48+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/CustomerService/security.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2017-11-29T21:41:48+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/ContactUs/contactus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_company` [ RunTime:0.041405s ]
+SQL: SELECT * FROM `alk_tb_company`  [ RunTime:0.040321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-11-29T21:41:48+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/CustomerService/security.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-11-29T21:41:49+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/JoinsUs/merchants.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-11-29T21:41:49+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/Member/area.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002640s ]
+
+[ 2017-11-29T21:41:50+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/Product/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.046224s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_product` LIMIT 1   [ RunTime:0.045230s ]
+SQL: SELECT * FROM `alk_tb_product` LIMIT 0,6   [ RunTime:0.047237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.242938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.243529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2017-11-29T21:41:50+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/QuestProduct/wineculture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_questproducttype` [ RunTime:0.039171s ]
+SQL: SELECT * FROM `alk_tb_questproducttype`  [ RunTime:0.039768s ]
+SQL: SHOW COLUMNS FROM alk_tb_questproduct as q [ RunTime:0.040205s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as q' at line 1
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM alk_tb_questproduct as q
+SQL: SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ëë°ËêÑÈÖíÊñáÂå\ñ' )  [ RunTime:0.042409s ]
+ERR: 1146:Table 'bdm246300294_db.tb_questproducttype' doesn't exist
+ [ SQLËØ≠Âè• ] : SELECT * FROM alk_tb_questproduct as q INNER JOIN tb_questproducttype as t on q.questproducttypeid=t.id  WHERE ( `name` = 'Ëë°ËêÑÈÖíÊñáÂå\ñ' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-11-29T21:41:55+08:00 ] 127.0.0.1 /MyProject/ALK/index.php/Home/Product/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\MyProject\ALK\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `alk_tb_product` [ RunTime:0.040517s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `alk_tb_product` LIMIT 1   [ RunTime:0.039206s ]
+SQL: SELECT * FROM `alk_tb_product` LIMIT 0,6   [ RunTime:0.040752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000911s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001934s ]
+
